@@ -1,0 +1,14 @@
+{
+  "name": "print-screenshot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && node dist/decode-screenshot.js"
+  },
+  "dependencies": {
+    "protractor": "tomyam1/protractor-ts3.7-fix",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.17"
+  }
+}
